@@ -1,0 +1,1907 @@
+{
+  "apis": {
+    "inventory:add_item": {
+      "Version": "0.4.0"
+    },
+    "inventory:contains_item": {
+      "Version": "0.4.0"
+    },
+    "inventory:get_list": {
+      "Version": "0.4.0"
+    },
+    "inventory:get_lists": {
+      "Version": "0.4.10"
+    },
+    "inventory:get_location": {
+      "Version": "0.4.5"
+    },
+    "inventory:get_size": {
+      "Version": "0.4.0"
+    },
+    "inventory:get_stack": {
+      "Version": "0.4.0"
+    },
+    "inventory:get_width": {
+      "Version": "0.4.3"
+    },
+    "inventory:is_empty": {
+      "Version": "0.4.0"
+    },
+    "inventory:remove_item": {
+      "Version": "0.4.0"
+    },
+    "inventory:room_for_item": {
+      "Version": "0.4.0"
+    },
+    "inventory:set_list": {
+      "Version": "0.4.0"
+    },
+    "inventory:set_lists": {
+      "Version": "0.4.10"
+    },
+    "inventory:set_size": {
+      "Version": "0.4.0"
+    },
+    "inventory:set_stack": {
+      "Version": "0.4.0"
+    },
+    "inventory:set_width": {
+      "Version": "0.4.3"
+    },
+    "itemstack:add_wear": {
+      "Version": "0.4.0"
+    },
+    "itemstack:add_wear_by_uses": {
+      "Version": "5.6.0"
+    },
+    "itemstack:clear": {
+      "Version": "0.4.0"
+    },
+    "itemstack:equals": {
+      "Version": "0.4.16"
+    },
+    "itemstack:get_count": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_definition": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_description": {
+      "Version": "5.1.0"
+    },
+    "itemstack:get_free_space": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_meta": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_metadata": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_name": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_short_description": {
+      "Version": "5.4.0"
+    },
+    "itemstack:get_stack_max": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_tool_capabilities": {
+      "Version": "0.4.0"
+    },
+    "itemstack:get_wear": {
+      "Version": "0.4.0"
+    },
+    "itemstack:is_empty": {
+      "Version": "0.4.0"
+    },
+    "itemstack:is_known": {
+      "Version": "0.4.0"
+    },
+    "itemstack:item_fits": {
+      "Version": "0.4.0"
+    },
+    "itemstack:peek_item": {
+      "Version": "0.4.0"
+    },
+    "itemstack:replace": {
+      "Version": "0.4.0"
+    },
+    "itemstack:set_count": {
+      "Version": "0.4.8"
+    },
+    "itemstack:set_metadata": {
+      "Version": "0.4.8"
+    },
+    "itemstack:set_name": {
+      "Version": "0.4.8"
+    },
+    "itemstack:set_tool_capabilities": {
+      "Version": "5.0.0"
+    },
+    "itemstack:set_wear": {
+      "Version": "0.4.8"
+    },
+    "itemstack:take_item": {
+      "Version": "0.4.0"
+    },
+    "itemstack:to_string": {
+      "Version": "0.4.0"
+    },
+    "itemstack:to_table": {
+      "Version": "0.4.0"
+    },
+    "minetest.add_entity": {
+      "Version": "0.4.0"
+    },
+    "minetest.add_item": {
+      "Version": "0.4.0"
+    },
+    "minetest.add_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.add_node_level": {
+      "Version": "0.4.8"
+    },
+    "minetest.add_particle": {
+      "Version": "0.4.6"
+    },
+    "minetest.add_particlespawner": {
+      "Version": "0.4.6"
+    },
+    "minetest.after": {
+      "Version": "0.4.0"
+    },
+    "minetest.auth_reload": {
+      "Version": "0.4.0"
+    },
+    "minetest.ban_player": {
+      "Version": "0.4.3"
+    },
+    "minetest.bulk_set_node": {
+      "Version": "5.0.0"
+    },
+    "minetest.bulk_swap_node": {
+      "Version": "5.10.0"
+    },
+    "minetest.calculate_knockback": {
+      "Version": "5.1.0"
+    },
+    "minetest.cancel_shutdown_requests": {
+      "Version": "0.4.16"
+    },
+    "minetest.change_player_privs": {
+      "Version": "5.9.0"
+    },
+    "minetest.chat_send_all": {
+      "Version": "0.4.0"
+    },
+    "minetest.chat_send_player": {
+      "Version": "0.4.0"
+    },
+    "minetest.check_for_falling": {
+      "Version": "0.4.15"
+    },
+    "minetest.check_password_entry": {
+      "Version": "0.4.15"
+    },
+    "minetest.check_player_privs": {
+      "Version": "0.4.0"
+    },
+    "minetest.check_single_for_falling": {
+      "Version": "0.4.15"
+    },
+    "minetest.clear_craft": {
+      "Version": "0.4.15"
+    },
+    "minetest.clear_objects": {
+      "Version": "0.4.3"
+    },
+    "minetest.clear_registered_biomes": {
+      "Version": "0.4.13"
+    },
+    "minetest.clear_registered_decorations": {
+      "Version": "0.4.12"
+    },
+    "minetest.clear_registered_ores": {
+      "Version": "0.4.12"
+    },
+    "minetest.clear_registered_schematics": {
+      "Version": "0.4.13"
+    },
+    "minetest.close_formspec": {
+      "Version": "0.4.15"
+    },
+    "minetest.colorize": {
+      "Version": "0.4.15"
+    },
+    "minetest.colorspec_to_bytes": {
+      "Version": "5.5.0"
+    },
+    "minetest.colorspec_to_colorstring": {
+      "Version": "5.5.0"
+    },
+    "minetest.colorspec_to_table": {
+      "Version": "5.10.0"
+    },
+    "minetest.compare_block_status": {
+      "Version": "5.5.0"
+    },
+    "minetest.compress": {
+      "Version": "0.4.11"
+    },
+    "minetest.cpdir": {
+      "Version": "5.5.0"
+    },
+    "minetest.create_detached_inventory": {
+      "Version": "0.4.3"
+    },
+    "minetest.create_schematic": {
+      "Version": "0.4.8"
+    },
+    "minetest.debug": {
+      "Version": "0.4.0"
+    },
+    "minetest.decode_base64": {
+      "Version": "0.4.15"
+    },
+    "minetest.decompress": {
+      "Version": "0.4.11"
+    },
+    "minetest.delete_area": {
+      "Version": "0.4.12"
+    },
+    "minetest.delete_particlespawner": {
+      "Version": "0.4.6"
+    },
+    "minetest.deserialize": {
+      "Version": "0.4.0"
+    },
+    "minetest.dig_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.dir_to_facedir": {
+      "Version": "0.4.0"
+    },
+    "minetest.dir_to_fourdir": {
+      "Version": "5.7.0"
+    },
+    "minetest.dir_to_wallmounted": {
+      "Version": "0.4.0"
+    },
+    "minetest.dir_to_yaw": {
+      "Version": "0.4.16"
+    },
+    "minetest.disconnect_player": {
+      "Version": "5.5.0"
+    },
+    "minetest.do_item_eat": {
+      "Version": "0.4.13"
+    },
+    "minetest.dynamic_add_media": {
+      "Version": "5.3.0"
+    },
+    "minetest.emerge_area": {
+      "Version": "0.4.14"
+    },
+    "minetest.encode_base64": {
+      "Version": "0.4.15"
+    },
+    "minetest.encode_png": {
+      "Version": "5.5.0"
+    },
+    "minetest.explode_scrollbar_event": {
+      "Version": "0.4.11"
+    },
+    "minetest.explode_table_event": {
+      "Version": "0.4.10"
+    },
+    "minetest.explode_textlist_event": {
+      "Version": "0.4.10"
+    },
+    "minetest.facedir_to_dir": {
+      "Version": "0.4.8"
+    },
+    "minetest.find_node_near": {
+      "Version": "0.4.0"
+    },
+    "minetest.find_nodes_in_area": {
+      "Version": "0.4.0"
+    },
+    "minetest.find_nodes_in_area_under_air": {
+      "Version": "0.4.13"
+    },
+    "minetest.find_nodes_with_meta": {
+      "Version": "0.4.13"
+    },
+    "minetest.find_path": {
+      "Version": "0.4.7"
+    },
+    "minetest.fix_light": {
+      "Version": "0.4.16"
+    },
+    "minetest.forceload_block": {
+      "Version": "0.4.10"
+    },
+    "minetest.forceload_free_block": {
+      "Version": "0.4.10"
+    },
+    "minetest.format_chat_message": {
+      "Version": "5.1.0"
+    },
+    "minetest.formspec_escape": {
+      "Version": "0.4.6"
+    },
+    "minetest.fourdir_to_dir": {
+      "Version": "5.7.0"
+    },
+    "minetest.generate_decorations": {
+      "Version": "0.4.12"
+    },
+    "minetest.generate_ores": {
+      "Version": "0.4.12"
+    },
+    "minetest.get_active_blocks": {
+      "Version": "5.16.0"
+    },
+    "minetest.get_all_craft_recipes": {
+      "Version": "0.4.6"
+    },
+    "minetest.get_artificial_light": {
+      "Version": "5.4.0"
+    },
+    "minetest.get_auth_handler": {
+      "Version": "0.4.17"
+    },
+    "minetest.get_background_escape_sequence": {
+      "Version": "0.4.17"
+    },
+    "minetest.get_ban_description": {
+      "Version": "0.4.3"
+    },
+    "minetest.get_ban_list": {
+      "Version": "0.4.3"
+    },
+    "minetest.get_biome_data": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_biome_id": {
+      "Version": "0.4.14"
+    },
+    "minetest.get_biome_name": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_color_escape_sequence": {
+      "Version": "0.4.15"
+    },
+    "minetest.get_connected_players": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_content_id": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_craft_recipe": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_craft_result": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_current_modname": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_day_count": {
+      "Version": "0.4.14"
+    },
+    "minetest.get_decoration_id": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_dig_params": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_dir_list": {
+      "Version": "0.4.13"
+    },
+    "minetest.get_game_info": {
+      "Version": "5.7.0"
+    },
+    "minetest.get_gametime": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_gen_notify": {
+      "Version": "0.4.13"
+    },
+    "minetest.get_heat": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_hit_params": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_humidity": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_item_group": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_loadable_blocks": {
+      "Version": "5.16.0"
+    },
+    "minetest.get_loaded_blocks": {
+      "Version": "5.16.0"
+    },
+    "minetest.get_mapgen_chunksize": {
+      "Version": "5.13.0"
+    },
+    "minetest.get_mapgen_edges": {
+      "Version": "5.7.0"
+    },
+    "minetest.get_mapgen_object": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_mapgen_params": {
+      "Version": "0.4.12"
+    },
+    "minetest.get_mapgen_setting": {
+      "Version": "0.4.15"
+    },
+    "minetest.get_mapgen_setting_noiseparams": {
+      "Version": "0.4.15"
+    },
+    "minetest.get_meta": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_mod_data_path": {
+      "Version": "5.9.0"
+    },
+    "minetest.get_mod_storage": {
+      "Version": "0.4.16"
+    },
+    "minetest.get_modnames": {
+      "Version": "0.4.3"
+    },
+    "minetest.get_modpath": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_name_from_content_id": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_natural_light": {
+      "Version": "5.4.0"
+    },
+    "minetest.get_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_node_boxes": {
+      "Version": "5.9.0"
+    },
+    "minetest.get_node_drops": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_node_group": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_node_level": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_node_light": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_node_max_level": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_node_or_nil": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_node_raw": {
+      "Version": "5.13.0"
+    },
+    "minetest.get_node_timer": {
+      "Version": "0.4.3"
+    },
+    "minetest.get_noiseparams": {
+      "Version": "0.4.13"
+    },
+    "minetest.get_objects_in_area": {
+      "Version": "5.4.0"
+    },
+    "minetest.get_objects_inside_radius": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_password_hash": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_perlin": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_player_by_name": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_player_information": {
+      "Version": "0.4.10"
+    },
+    "minetest.get_player_ip": {
+      "Version": "0.4.7"
+    },
+    "minetest.get_player_privs": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_player_window_information": {
+      "Version": "5.7.0"
+    },
+    "minetest.get_pointed_thing_position": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_position_from_hash": {
+      "Version": "0.4.10"
+    },
+    "minetest.get_server_max_lag": {
+      "Version": "5.5.0"
+    },
+    "minetest.get_server_status": {
+      "Version": "0.4.3"
+    },
+    "minetest.get_server_uptime": {
+      "Version": "0.4.15"
+    },
+    "minetest.get_spawn_level": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_timeofday": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_tool_wear_after_use": {
+      "Version": "5.6.0"
+    },
+    "minetest.get_translator": {
+      "Version": "5.0.0"
+    },
+    "minetest.get_us_time": {
+      "Version": "0.4.11"
+    },
+    "minetest.get_value_noise": {
+      "Version": "5.12.0"
+    },
+    "minetest.get_version": {
+      "Version": "0.4.15"
+    },
+    "minetest.get_voxel_manip": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_worldpath": {
+      "Version": "0.4.0"
+    },
+    "minetest.global_exists": {
+      "Version": "0.4.13"
+    },
+    "minetest.handle_async": {
+      "Version": "5.6.0"
+    },
+    "minetest.handle_node_drops": {
+      "Version": "0.4.3"
+    },
+    "minetest.has_feature": {
+      "Version": "0.4.7"
+    },
+    "minetest.hash_node_position": {
+      "Version": "0.4.0"
+    },
+    "minetest.hud_replace_builtin": {
+      "Version": "0.4.10"
+    },
+    "minetest.hypertext_escape": {
+      "Version": "5.10.0"
+    },
+    "minetest.inventorycube": {
+      "Version": "0.4.0"
+    },
+    "minetest.ipc_cas": {
+      "Version": "5.10.0"
+    },
+    "minetest.ipc_get": {
+      "Version": "5.10.0"
+    },
+    "minetest.ipc_poll": {
+      "Version": "5.10.0"
+    },
+    "minetest.ipc_set": {
+      "Version": "5.10.0"
+    },
+    "minetest.is_area_protected": {
+      "Version": "5.0.0"
+    },
+    "minetest.is_colored_paramtype": {
+      "Version": "0.4.17"
+    },
+    "minetest.is_creative_enabled": {
+      "Version": "5.3.0"
+    },
+    "minetest.is_nan": {
+      "Version": "5.0.0"
+    },
+    "minetest.is_player": {
+      "Version": "0.4.0"
+    },
+    "minetest.is_protected": {
+      "Version": "0.4.8"
+    },
+    "minetest.is_singleplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.is_valid_player_name": {
+      "Version": "5.10.0"
+    },
+    "minetest.is_yes": {
+      "Version": "0.4.8"
+    },
+    "minetest.item_drop": {
+      "Version": "0.4.0"
+    },
+    "minetest.item_eat": {
+      "Version": "0.4.0"
+    },
+    "minetest.item_pickup": {
+      "Version": "5.7.0"
+    },
+    "minetest.item_place": {
+      "Version": "0.4.0"
+    },
+    "minetest.item_place_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.item_place_object": {
+      "Version": "0.4.0"
+    },
+    "minetest.item_secondary_use": {
+      "Version": "5.14.0"
+    },
+    "minetest.itemstring_with_color": {
+      "Version": "5.0.0"
+    },
+    "minetest.itemstring_with_palette": {
+      "Version": "5.0.0"
+    },
+    "minetest.kick_player": {
+      "Version": "0.4.10"
+    },
+    "minetest.line_of_sight": {
+      "Version": "0.4.7"
+    },
+    "minetest.load_area": {
+      "Version": "5.0.0"
+    },
+    "minetest.log": {
+      "Version": "0.4.0"
+    },
+    "minetest.mkdir": {
+      "Version": "0.4.13"
+    },
+    "minetest.mod_channel_join": {
+      "Version": "5.0.0"
+    },
+    "minetest.mvdir": {
+      "Version": "5.5.0"
+    },
+    "minetest.node_dig": {
+      "Version": "0.4.0"
+    },
+    "minetest.node_punch": {
+      "Version": "0.4.0"
+    },
+    "minetest.notify_authentication_modified": {
+      "Version": "0.4.0"
+    },
+    "minetest.objects_in_area": {
+      "Version": "5.9.0"
+    },
+    "minetest.objects_inside_radius": {
+      "Version": "5.9.0"
+    },
+    "minetest.override_chatcommand": {
+      "Version": "0.4.16"
+    },
+    "minetest.override_item": {
+      "Version": "0.4.10"
+    },
+    "minetest.parse_json": {
+      "Version": "0.4.8"
+    },
+    "minetest.parse_relative_number": {
+      "Version": "5.7.0"
+    },
+    "minetest.path_exists": {
+      "Version": "5.15.0"
+    },
+    "minetest.place_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.place_schematic": {
+      "Version": "0.4.8"
+    },
+    "minetest.place_schematic_on_vmanip": {
+      "Version": "0.4.14"
+    },
+    "minetest.player_exists": {
+      "Version": "0.4.16"
+    },
+    "minetest.pointed_thing_to_face_pos": {
+      "Version": "0.4.16"
+    },
+    "minetest.pos_to_string": {
+      "Version": "0.4.0"
+    },
+    "minetest.privs_to_string": {
+      "Version": "0.4.0"
+    },
+    "minetest.punch_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.raillike_group": {
+      "Version": "0.4.13"
+    },
+    "minetest.raycast": {
+      "Version": "5.0.0"
+    },
+    "minetest.read_schematic": {
+      "Version": "5.1.0"
+    },
+    "minetest.record_protection_violation": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_abm": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_alias": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_alias_force": {
+      "Version": "0.4.15"
+    },
+    "minetest.register_allow_player_inventory_action": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_async_dofile": {
+      "Version": "5.6.0"
+    },
+    "minetest.register_authentication_handler": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_biome": {
+      "Version": "0.4.13"
+    },
+    "minetest.register_can_bypass_userlimit": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_chatcommand": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_craft": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_craft_predict": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_craftitem": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_decoration": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_entity": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_globalstep": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_lbm": {
+      "Version": "0.4.14"
+    },
+    "minetest.register_mapgen_script": {
+      "Version": "5.9.0"
+    },
+    "minetest.register_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_auth_fail": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_authplayer": {
+      "Version": "5.3.0"
+    },
+    "minetest.register_on_chat_message": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_chatcommand": {
+      "Version": "5.4.0"
+    },
+    "minetest.register_on_cheat": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_on_craft": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_on_dieplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_dignode": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_generated": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_item_eat": {
+      "Version": "0.4.10"
+    },
+    "minetest.register_on_item_pickup": {
+      "Version": "5.7.0"
+    },
+    "minetest.register_on_joinplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_leaveplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_liquid_transformed": {
+      "Version": "5.5.0"
+    },
+    "minetest.register_on_mapblocks_changed": {
+      "Version": "5.7.0"
+    },
+    "minetest.register_on_modchannel_message": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_mods_loaded": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_newplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_placenode": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_player_hpchange": {
+      "Version": "0.4.13"
+    },
+    "minetest.register_on_player_inventory_action": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_player_receive_fields": {
+      "Version": "0.4.3"
+    },
+    "minetest.register_on_prejoinplayer": {
+      "Version": "0.4.9"
+    },
+    "minetest.register_on_priv_grant": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_priv_revoke": {
+      "Version": "5.0.0"
+    },
+    "minetest.register_on_protection_violation": {
+      "Version": "0.4.8"
+    },
+    "minetest.register_on_punchnode": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_punchplayer": {
+      "Version": "0.4.13"
+    },
+    "minetest.register_on_respawnplayer": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_on_rightclickplayer": {
+      "Version": "5.4.0"
+    },
+    "minetest.register_on_shutdown": {
+      "Version": "0.4.4"
+    },
+    "minetest.register_ore": {
+      "Version": "0.4.6"
+    },
+    "minetest.register_portable_metatable": {
+      "Version": "5.9.0"
+    },
+    "minetest.register_privilege": {
+      "Version": "0.4.0"
+    },
+    "minetest.register_schematic": {
+      "Version": "0.4.13"
+    },
+    "minetest.register_tool": {
+      "Version": "0.4.0"
+    },
+    "minetest.remove_detached_inventory": {
+      "Version": "5.0.0"
+    },
+    "minetest.remove_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.remove_player": {
+      "Version": "0.4.16"
+    },
+    "minetest.remove_player_auth": {
+      "Version": "5.0.0"
+    },
+    "minetest.request_http_api": {
+      "Version": "0.4.14"
+    },
+    "minetest.request_insecure_environment": {
+      "Version": "0.4.13"
+    },
+    "minetest.request_shutdown": {
+      "Version": "0.4.3"
+    },
+    "minetest.rgba": {
+      "Version": "5.0.0"
+    },
+    "minetest.rmdir": {
+      "Version": "5.5.0"
+    },
+    "minetest.rollback_get_node_actions": {
+      "Version": "0.4.9"
+    },
+    "minetest.rollback_revert_actions_by": {
+      "Version": "0.4.3"
+    },
+    "minetest.rotate_and_place": {
+      "Version": "0.4.8"
+    },
+    "minetest.rotate_node": {
+      "Version": "0.4.8"
+    },
+    "minetest.safe_file_write": {
+      "Version": "0.4.17"
+    },
+    "minetest.save_gen_notify": {
+      "Version": "5.9.0"
+    },
+    "minetest.send_join_message": {
+      "Version": "5.0.0"
+    },
+    "minetest.send_leave_message": {
+      "Version": "5.0.0"
+    },
+    "minetest.serialize": {
+      "Version": "0.4.0"
+    },
+    "minetest.serialize_schematic": {
+      "Version": "0.4.13"
+    },
+    "minetest.set_gen_notify": {
+      "Version": "0.4.9"
+    },
+    "minetest.set_mapgen_params": {
+      "Version": "0.4.8"
+    },
+    "minetest.set_mapgen_setting": {
+      "Version": "0.4.15"
+    },
+    "minetest.set_mapgen_setting_noiseparams": {
+      "Version": "0.4.15"
+    },
+    "minetest.set_node": {
+      "Version": "0.4.0"
+    },
+    "minetest.set_node_level": {
+      "Version": "0.4.8"
+    },
+    "minetest.set_noiseparams": {
+      "Version": "0.4.11"
+    },
+    "minetest.set_player_password": {
+      "Version": "0.4.0"
+    },
+    "minetest.set_player_privs": {
+      "Version": "0.4.0"
+    },
+    "minetest.set_timeofday": {
+      "Version": "0.4.0"
+    },
+    "minetest.setting_get": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "minetest.setting_get_pos": {
+      "Version": "0.4.0"
+    },
+    "minetest.setting_getbool": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "minetest.setting_save": {
+      "Version": "0.4.5",
+      "MaxVersion": "0.4.16"
+    },
+    "minetest.setting_set": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "minetest.setting_setbool": {
+      "Version": "0.4.8",
+      "MaxVersion": "0.4.16"
+    },
+    "minetest.sha1": {
+      "Version": "0.4.17"
+    },
+    "minetest.sha256": {
+      "Version": "5.9.0"
+    },
+    "minetest.show_death_screen": {
+      "Version": "5.10.0"
+    },
+    "minetest.show_formspec": {
+      "Version": "0.4.5"
+    },
+    "minetest.sound_fade": {
+      "Version": "0.4.16"
+    },
+    "minetest.sound_play": {
+      "Version": "0.4.0"
+    },
+    "minetest.sound_stop": {
+      "Version": "0.4.0"
+    },
+    "minetest.spawn_falling_node": {
+      "Version": "0.4.16"
+    },
+    "minetest.spawn_tree": {
+      "Version": "0.4.5"
+    },
+    "minetest.spawn_tree_on_vmanip": {
+      "Version": "5.11.0"
+    },
+    "minetest.string_to_area": {
+      "Version": "0.4.14"
+    },
+    "minetest.string_to_pos": {
+      "Version": "0.4.0"
+    },
+    "minetest.string_to_privs": {
+      "Version": "0.4.0"
+    },
+    "minetest.strip_background_colors": {
+      "Version": "0.4.17"
+    },
+    "minetest.strip_colors": {
+      "Version": "0.4.17"
+    },
+    "minetest.strip_escapes": {
+      "Version": "5.14.0"
+    },
+    "minetest.strip_foreground_colors": {
+      "Version": "0.4.17"
+    },
+    "minetest.strip_param2_color": {
+      "Version": "0.4.17"
+    },
+    "minetest.swap_node": {
+      "Version": "0.4.9"
+    },
+    "minetest.time_to_day_night_ratio": {
+      "Version": "5.10.0"
+    },
+    "minetest.transforming_liquid_add": {
+      "Version": "0.4.8"
+    },
+    "minetest.translate": {
+      "Version": "5.0.0"
+    },
+    "minetest.translate_n": {
+      "Version": "5.10.0"
+    },
+    "minetest.unban_player_or_ip": {
+      "Version": "0.4.3"
+    },
+    "minetest.unregister_biome": {
+      "Version": "5.0.0"
+    },
+    "minetest.unregister_chatcommand": {
+      "Version": "0.4.16"
+    },
+    "minetest.unregister_item": {
+      "Version": "0.4.15"
+    },
+    "minetest.urlencode": {
+      "Version": "5.8.0"
+    },
+    "minetest.wallmounted_to_dir": {
+      "Version": "0.4.14"
+    },
+    "minetest.wrap_text": {
+      "Version": "0.4.16"
+    },
+    "minetest.write_json": {
+      "Version": "0.4.9"
+    },
+    "minetest.yaw_to_dir": {
+      "Version": "0.4.16"
+    },
+    "object:add_player_velocity": {
+      "Version": "5.1.0"
+    },
+    "object:add_velocity": {
+      "Version": "5.0.0"
+    },
+    "object:get_acceleration": {
+      "Version": "0.4.16"
+    },
+    "object:get_animation": {
+      "Version": "0.4.13"
+    },
+    "object:get_armor_groups": {
+      "Version": "0.4.0"
+    },
+    "object:get_attach": {
+      "Version": "0.4.13"
+    },
+    "object:get_attribute": {
+      "Version": "0.4.16"
+    },
+    "object:get_bone_position": {
+      "Version": "0.4.13"
+    },
+    "object:get_breath": {
+      "Version": "0.4.8"
+    },
+    "object:get_camera": {
+      "Version": "5.12.0"
+    },
+    "object:get_children": {
+      "Version": "5.4.0"
+    },
+    "object:get_clouds": {
+      "Version": "0.4.16"
+    },
+    "object:get_day_night_ratio": {
+      "Version": "0.4.13"
+    },
+    "object:get_entity_name": {
+      "Version": "0.4.0"
+    },
+    "object:get_eye_offset": {
+      "Version": "0.4.13"
+    },
+    "object:get_flags": {
+      "Version": "5.2.0"
+    },
+    "object:get_formspec_prepend": {
+      "Version": "5.0.0"
+    },
+    "object:get_fov": {
+      "Version": "5.1.0"
+    },
+    "object:get_hp": {
+      "Version": "0.4.0"
+    },
+    "object:get_inventory": {
+      "Version": "0.4.0"
+    },
+    "object:get_inventory_formspec": {
+      "Version": "0.4.0"
+    },
+    "object:get_lighting": {
+      "Version": "5.6.0"
+    },
+    "object:get_local_animation": {
+      "Version": "0.4.13"
+    },
+    "object:get_look_dir": {
+      "Version": "0.4.0"
+    },
+    "object:get_look_horizontal": {
+      "Version": "0.4.15"
+    },
+    "object:get_look_pitch": {
+      "Version": "0.4.0"
+    },
+    "object:get_look_vertical": {
+      "Version": "0.4.15"
+    },
+    "object:get_look_yaw": {
+      "Version": "0.4.0"
+    },
+    "object:get_luaentity": {
+      "Version": "0.4.0"
+    },
+    "object:get_meta": {
+      "Version": "0.4.0"
+    },
+    "object:get_moon": {
+      "Version": "5.2.0"
+    },
+    "object:get_nametag_attributes": {
+      "Version": "0.4.13"
+    },
+    "object:get_physics_override": {
+      "Version": "0.4.13"
+    },
+    "object:get_player_control": {
+      "Version": "0.4.4"
+    },
+    "object:get_player_control_bits": {
+      "Version": "0.4.4"
+    },
+    "object:get_player_name": {
+      "Version": "0.4.0"
+    },
+    "object:get_player_velocity": {
+      "Version": "0.4.13"
+    },
+    "object:get_pos": {
+      "Version": "0.4.16"
+    },
+    "object:get_properties": {
+      "Version": "0.4.13"
+    },
+    "object:get_rotation": {
+      "Version": "5.0.0"
+    },
+    "object:get_sky": {
+      "Version": "0.4.13"
+    },
+    "object:get_sky_color": {
+      "Version": "5.2.0"
+    },
+    "object:get_stars": {
+      "Version": "5.2.0"
+    },
+    "object:get_sun": {
+      "Version": "5.2.0"
+    },
+    "object:get_texture_mod": {
+      "Version": "0.4.16"
+    },
+    "object:get_velocity": {
+      "Version": "0.4.16"
+    },
+    "object:get_wield_index": {
+      "Version": "0.4.0"
+    },
+    "object:get_wield_list": {
+      "Version": "0.4.0"
+    },
+    "object:get_wielded_item": {
+      "Version": "0.4.0"
+    },
+    "object:get_yaw": {
+      "Version": "0.4.16"
+    },
+    "object:hud_add": {
+      "Version": "0.4.7"
+    },
+    "object:hud_change": {
+      "Version": "0.4.7"
+    },
+    "object:hud_get": {
+      "Version": "0.4.7"
+    },
+    "object:hud_get_all": {
+      "Version": "5.9.0"
+    },
+    "object:hud_get_flags": {
+      "Version": "0.4.10"
+    },
+    "object:hud_get_hotbar_image": {
+      "Version": "5.7.0"
+    },
+    "object:hud_get_hotbar_itemcount": {
+      "Version": "5.7.0"
+    },
+    "object:hud_get_hotbar_selected_image": {
+      "Version": "5.7.0"
+    },
+    "object:hud_remove": {
+      "Version": "0.4.7"
+    },
+    "object:hud_set_flags": {
+      "Version": "0.4.7"
+    },
+    "object:hud_set_hotbar_image": {
+      "Version": "0.4.8"
+    },
+    "object:hud_set_hotbar_itemcount": {
+      "Version": "0.4.7"
+    },
+    "object:hud_set_hotbar_selected_image": {
+      "Version": "0.4.8"
+    },
+    "object:is_player": {
+      "Version": "0.4.0"
+    },
+    "object:move_to": {
+      "Version": "0.4.16"
+    },
+    "object:override_day_night_ratio": {
+      "Version": "0.4.10"
+    },
+    "object:punch": {
+      "Version": "0.4.0"
+    },
+    "object:remove": {
+      "Version": "0.4.0"
+    },
+    "object:respawn": {
+      "Version": "5.6.0"
+    },
+    "object:right_click": {
+      "Version": "0.4.0"
+    },
+    "object:send_mapblock": {
+      "Version": "5.1.0"
+    },
+    "object:set_acceleration": {
+      "Version": "0.4.16"
+    },
+    "object:set_animation": {
+      "Version": "0.4.4"
+    },
+    "object:set_animation_frame_speed": {
+      "Version": "5.0.0"
+    },
+    "object:set_armor_groups": {
+      "Version": "0.4.0"
+    },
+    "object:set_attach": {
+      "Version": "0.4.4"
+    },
+    "object:set_attribute": {
+      "Version": "0.4.16"
+    },
+    "object:set_bone_position": {
+      "Version": "0.4.4"
+    },
+    "object:set_breath": {
+      "Version": "0.4.8"
+    },
+    "object:set_camera": {
+      "Version": "5.12.0"
+    },
+    "object:set_clouds": {
+      "Version": "0.4.16"
+    },
+    "object:set_detach": {
+      "Version": "0.4.4"
+    },
+    "object:set_eye_offset": {
+      "Version": "0.4.10"
+    },
+    "object:set_flags": {
+      "Version": "5.10.0"
+    },
+    "object:set_formspec_prepend": {
+      "Version": "5.0.0"
+    },
+    "object:set_fov": {
+      "Version": "5.1.0"
+    },
+    "object:set_hp": {
+      "Version": "0.4.0"
+    },
+    "object:set_inventory_formspec": {
+      "Version": "0.4.0"
+    },
+    "object:set_lighting": {
+      "Version": "0.4.8"
+    },
+    "object:set_local_animation": {
+      "Version": "0.4.10"
+    },
+    "object:set_look_horizontal": {
+      "Version": "0.4.15"
+    },
+    "object:set_look_pitch": {
+      "Version": "0.4.6"
+    },
+    "object:set_look_vertical": {
+      "Version": "0.4.15"
+    },
+    "object:set_look_yaw": {
+      "Version": "0.4.6"
+    },
+    "object:set_minimap_modes": {
+      "Version": "5.4.0"
+    },
+    "object:set_moon": {
+      "Version": "5.2.0"
+    },
+    "object:set_nametag_attributes": {
+      "Version": "0.4.13"
+    },
+    "object:set_physics_override": {
+      "Version": "0.4.7"
+    },
+    "object:set_pos": {
+      "Version": "0.4.16"
+    },
+    "object:set_properties": {
+      "Version": "0.4.0"
+    },
+    "object:set_rotation": {
+      "Version": "5.0.0"
+    },
+    "object:set_sky": {
+      "Version": "0.4.10"
+    },
+    "object:set_sprite": {
+      "Version": "0.4.16"
+    },
+    "object:set_stars": {
+      "Version": "5.2.0"
+    },
+    "object:set_sun": {
+      "Version": "5.2.0"
+    },
+    "object:set_texture_mod": {
+      "Version": "0.4.16"
+    },
+    "object:set_velocity": {
+      "Version": "0.4.16"
+    },
+    "object:set_wielded_item": {
+      "Version": "0.4.0"
+    },
+    "object:set_yaw": {
+      "Version": "0.4.16"
+    },
+    "object:getacceleration": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:getpos": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:getvelocity": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:getyaw": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:moveto": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:setacceleration": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:setpos": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:setsprite": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:settexturemod": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:setvelocity": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "object:setyaw": {
+      "Version": "0.4.0",
+      "MaxVersion": "0.4.16"
+    },
+    "perlinnoise:calc_2d_map": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:calc_3d_map": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_2d": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_2d_map": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_2d_map_flat": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_3d": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_3d_map": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_3d_map_flat": {
+      "Version": "5.0.0"
+    },
+    "perlinnoise:get_map_slice": {
+      "Version": "5.0.0"
+    },
+    "pseudorandom:next": {
+      "Version": "0.4.0"
+    },
+    "settings:get": {
+      "Version": "0.4.8"
+    },
+    "settings:get_bool": {
+      "Version": "0.4.8"
+    },
+    "settings:get_flags": {
+      "Version": "5.2.0"
+    },
+    "settings:get_names": {
+      "Version": "0.4.8"
+    },
+    "settings:get_np_group": {
+      "Version": "5.0.0"
+    },
+    "settings:remove": {
+      "Version": "0.4.0"
+    },
+    "settings:set": {
+      "Version": "0.4.3"
+    },
+    "settings:set_bool": {
+      "Version": "0.4.16"
+    },
+    "settings:set_np_group": {
+      "Version": "5.0.0"
+    },
+    "settings:to_table": {
+      "Version": "0.4.0"
+    },
+    "settings:write": {
+      "Version": "0.4.8"
+    },
+    "storage:from_table": {
+      "Version": "5.0.0"
+    },
+    "storage:get_float": {
+      "Version": "0.4.0"
+    },
+    "storage:get_int": {
+      "Version": "0.4.0"
+    },
+    "storage:get_keys": {
+      "Version": "5.7.0"
+    },
+    "storage:get_string": {
+      "Version": "0.4.0"
+    },
+    "storage:set_float": {
+      "Version": "0.4.0"
+    },
+    "storage:set_int": {
+      "Version": "0.4.0"
+    },
+    "storage:set_string": {
+      "Version": "0.4.0"
+    },
+    "storage:to_table": {
+      "Version": "5.0.0"
+    },
+    "voxelarea:contains": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:containsi": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:containsp": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:getExtent": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:getVolume": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:index": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:indexp": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:iter": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:iterp": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:new": {
+      "Version": "0.4.8"
+    },
+    "voxelarea:position": {
+      "Version": "0.4.8"
+    },
+    "voxelmanip:calc_lighting": {
+      "Version": "0.4.8"
+    },
+    "voxelmanip:get_data": {
+      "Version": "0.4.8"
+    },
+    "voxelmanip:set_data": {
+      "Version": "0.4.8"
+    },
+    "voxelmanip:write_to_map": {
+      "Version": "0.4.8"
+    },
+    "minetest.get_inventory": {
+      "Version": "0.4.0"
+    },
+    "minetest.get_translated_string": {
+      "Version": "5.3.0"
+    },
+    "voxelmanip:read_from_map": {
+      "Version": "0.4.8"
+    },
+    "voxelmanip:update_liquids": {
+      "Version": "0.4.8"
+    }
+  },
+  "features": {
+    "abm_min_max_y": {
+      "Version": "5.5.0",
+      "//": "ABM supports min_y and max_y fields in definition"
+    },
+    "abm_without_neighbors": {
+      "Version": "5.10.0",
+      "//": "ABM supports field without_neighbors"
+    },
+    "add_entity_with_staticdata": {
+      "Version": "0.4.16",
+      "//": "(0.4.16)"
+    },
+    "after_order_expiry_registration": {
+      "Version": "5.9.0",
+      "//": "in order of expiry and secondarily in order of registration"
+    },
+    "area_store_custom_ids": {
+      "Version": "0.4.14",
+      "//": "Unique Area ID for AreaStore:insert_area"
+    },
+    "area_store_persistent_ids": {
+      "Version": "5.1.0",
+      "//": "Whether AreaStore's IDs are kept on save/load"
+    },
+    "biome_weights": {
+      "Version": "5.11.0",
+      "//": "biomes have a weight parameter"
+    },
+    "blocking_pointability_type": {
+      "Version": "5.9.0",
+      "//": "Nodes `pointable` property can be `\"blocking\"`"
+    },
+    "bulk_lbms": {
+      "Version": "5.10.0",
+      "//": "Bulk LBM support"
+    },
+    "chunksize_vector": {
+      "Version": "5.15.0",
+      "//": "'chunksize' mapgen setting can be a vector, instead of a single integer"
+    },
+    "compress_raw_deflate": {
+      "Version": "5.17.0",
+      "//": "\"raw_deflate\" method for compress/decompress"
+    },
+    "compress_zstd": {
+      "Version": "5.7.0",
+      "//": "\"zstd\" method for compress/decompress"
+    },
+    "degrotate_240_steps": {
+      "Version": "5.5.0",
+      "//": "thus changing the range of values from [0, 179] to [0, 240]"
+    },
+    "direct_velocity_on_players": {
+      "Version": "5.4.0",
+      "//": "Whether get_velocity() and add_velocity() can be used on players"
+    },
+    "dynamic_add_media_filepath": {
+      "Version": "5.9.0",
+      "//": "dynamic_add_media supports `filename` and `filedata` parameters"
+    },
+    "dynamic_add_media_startup": {
+      "Version": "5.9.0",
+      "//": "dynamic_add_media can be called at startup when leaving callback as `nil`"
+    },
+    "dynamic_add_media_table": {
+      "Version": "5.5.0",
+      "//": "dynamic_add_media supports passing a table with options"
+    },
+    "formspec_version_element": {
+      "Version": "5.1.0",
+      "//": "Whether formspec_version[<version>] may be used"
+    },
+    "generate_decorations_biomes": {
+      "Version": "5.14.0",
+      "//": "core.generate_decorations() supports `use_mapgen_biomes` parameter"
+    },
+    "get_all_craft_recipes_fuel": {
+      "Version": "5.17.0",
+      "//": "`width = 0` for non-shaped recipes and provides the optional `time` field"
+    },
+    "get_all_craft_recipes_works": {
+      "Version": "0.4.7",
+      "//": ""
+    },
+    "get_light_data_buffer": {
+      "Version": "5.7.0",
+      "//": "VoxelManip:get_light_data accepts an optional buffer argument"
+    },
+    "get_modnames_load_order": {
+      "Version": "5.16.0",
+      "//": "`core.get_modnames` has parameter `load_order`"
+    },
+    "get_sky_as_table": {
+      "Version": "5.6.0",
+      "//": "allows get_sky to return a table instead of separate values"
+    },
+    "glasslike_framed": {
+      "Version": "0.4.7",
+      "//": ""
+    },
+    "hotbar_hud_element": {
+      "Version": "5.10.0",
+      "//": "The predefined hotbar is a Lua HUD element of type `hotbar`"
+    },
+    "httpfetch_additional_methods": {
+      "Version": "5.12.0",
+      "//": "The HTTP API supports the HEAD and PATCH methods"
+    },
+    "httpfetch_binary_data": {
+      "Version": "5.1.0",
+      "//": "the HTTP API"
+    },
+    "hud_def_type_field": {
+      "Version": "5.9.0",
+      "//": "In HUD definitions the field `type` is used and `hud_elem_type` is deprecated"
+    },
+    "hud_hideable_field": {
+      "Version": "5.17.0",
+      "//": "The HUD element field `hideable` exists"
+    },
+    "item_image_animation": {
+      "Version": "5.15.0",
+      "//": "and `wield_overlay` accept a table containing animation definitions."
+    },
+    "item_meta_range": {
+      "Version": "5.9.0",
+      "//": "Overridable pointing range using the itemstack meta key `\"range\"`"
+    },
+    "item_specific_pointabilities": {
+      "Version": "5.9.0",
+      "//": "Availability of the `pointabilities` property in the item definition"
+    },
+    "lsystem_decoration_type": {
+      "Version": "5.9.0",
+      "//": "L-system decoration type"
+    },
+    "mod_storage_on_disk": {
+      "Version": "5.7.0",
+      "//": "When using a mod storage backend that is not \"files\" or \"dummy\", the amount of data in mod storage is not constrained by the amount of RAM available."
+    },
+    "moveresult_new_pos": {
+      "Version": "5.9.0",
+      "//": "\"new_pos\" field in entity moveresult"
+    },
+    "no_chat_message_prediction": {
+      "Version": "0.4.16",
+      "//": "Chat messages are no longer predicted"
+    },
+    "no_legacy_abms": {
+      "Version": "0.4.8",
+      "//": "Tree and grass ABMs are no longer done from C++"
+    },
+    "node_interaction_actor": {
+      "Version": "5.9.0",
+      "//": "Allow passing an optional \"actor\" ObjectRef to the following functions: core.place_node, core.dig_node, core.punch_node"
+    },
+    "nodebox_as_selectionbox": {
+      "Version": "0.4.7",
+      "//": ""
+    },
+    "object_guids": {
+      "Version": "5.13.0",
+      "//": "`ObjectRef:get_guid()` method exists"
+    },
+    "object_independent_selectionbox": {
+      "Version": "5.0.0",
+      "//": "(5.0.0)"
+    },
+    "object_step_has_moveresult": {
+      "Version": "5.3.0",
+      "//": "Whether Collision info is available to an objects' on_step"
+    },
+    "object_use_texture_alpha": {
+      "Version": "5.0.0",
+      "//": "The transparency channel of textures can optionally be used on objects (ie: players and lua entities)"
+    },
+    "on_timer_four_args": {
+      "Version": "5.14.0",
+      "//": "The NodeTimer `on_timer` callback is passed additional `node` and `timeout` args"
+    },
+    "override_item_remove_fields": {
+      "Version": "5.9.0",
+      "//": "Allow removing definition fields in `core.override_item`"
+    },
+    "particle_blend_clip": {
+      "Version": "5.11.0",
+      "//": "Particles can specify a \"clip\" blend mode"
+    },
+    "particlespawner_exclude_player": {
+      "Version": "5.14.0",
+      "//": "`ParticleSpawner` definition supports `exclude_player` field"
+    },
+    "particlespawner_tweenable": {
+      "Version": "5.6.0",
+      "//": "particlespawners support texpools and animation of properties, particle textures support smooth fade and scale animations, and sprite-sheet particle animations can be synced to the lifetime of individual particles"
+    },
+    "pathfinder_works": {
+      "Version": "5.2.0",
+      "//": "Whether core.find_path is functional"
+    },
+    "physics_overrides_v2": {
+      "Version": "5.8.0",
+      "//": "New fields for set_physics_override: speed_climb, speed_crouch, liquid_fluidity, liquid_fluidity_smooth, liquid_sink, acceleration_default, acceleration_air"
+    },
+    "random_state_restore": {
+      "Version": "5.9.0",
+      "//": "PseudoRandom and PcgRandom state is restorable PseudoRandom has get_state method PcgRandom has get_state and set_state methods"
+    },
+    "remove_item_match_meta": {
+      "Version": "5.12.0",
+      "//": "The `match_meta` optional parameter is available for `InvRef:remove_item()`"
+    },
+    "set_camera_resettable": {
+      "Version": "5.16.0",
+      "//": "`ObjectRef:set_camera()` accepts `nil` to indicate reset"
+    },
+    "sound_params_start_time": {
+      "Version": "5.8.0",
+      "//": "Sound parameter tables support start_time"
+    },
+    "texture_names_parens": {
+      "Version": "0.4.11",
+      "//": "Texture grouping is possible using parentheses"
+    },
+    "use_texture_alpha": {
+      "Version": "0.4.7",
+      "//": "The transparency channel of textures can optionally be used on nodes"
+    },
+    "use_texture_alpha_string_modes": {
+      "Version": "5.4.0",
+      "//": "nodedef's use_texture_alpha accepts new string modes"
+    },
+    "wallmounted_rotate": {
+      "Version": "5.9.0",
+      "//": "wallmounted nodes mounted at floor or ceiling may additionally be rotated by 90° with special param2 values"
+    }
+  },
+  "file_formats": {
+    ".tr": {
+      "Version": "5.0.0"
+    },
+    ".po": {
+      "Version": "5.10.0"
+    },
+    ".gltf": {
+      "Version": "5.10.0"
+    },
+    ".glb": {
+      "Version": "5.10.0"
+    },
+    ".x": {
+      "Version": "0.4.4"
+    },
+    ".b3d": {
+      "Version": "0.4.4"
+    }
+  },
+  "formspec_versions": {
+    "1": "0.4.3",
+    "2": "5.0.0",
+    "3": "5.4.0",
+    "4": "5.4.0",
+    "5": "5.5.0",
+    "6": "5.6.0",
+    "7": "5.8.0",
+    "8": "5.10.0",
+    "9": "5.12.0",
+    "10": "5.13.0"
+  }
+}
