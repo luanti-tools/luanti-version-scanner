@@ -111,13 +111,32 @@ func detectModDir() string {
 	return ""
 }
 
-func analyzeCollection(packDir, modsDir, label, confFile string, database *db.DB, listAll, verbose, quiet, doWrite bool) {
-	mods := listMods(modsDir)
-	if len(mods) == 0 {
+func analyzeCollection(packDir, modsDir, label, confFile string, database *db.DB, listAll, verbose, quiet, doWrite bool) (*db.Version, *db.Version) {
+	mods, packs := listModsAndPacks(modsDir)
+
+	if len(mods) == 0 && len(packs) == 0 {
 		fmt.Fprintf(os.Stderr, "Error: no mods found in %s.\n", label)
 		os.Exit(1)
 	}
+
 	var packMin, packMax *db.Version
+
+	// Recursively analyze modpack subdirectories
+	for _, pack := range packs {
+		path := filepath.Join(modsDir, pack)
+		if !quiet {
+			fmt.Printf("\n  ===== %s (modpack) =====\n", pack)
+		}
+		minV, maxV := analyzeCollection(path, path, pack, "modpack.conf", database, listAll, verbose, quiet, doWrite)
+		if packMin == nil || (minV != nil && packMin.LessThan(*minV)) {
+			packMin = minV
+		}
+		if packMax == nil || (maxV != nil && maxV.LessThan(*packMax)) {
+			packMax = maxV
+		}
+	}
+
+	// Analyze individual mods
 	for _, mod := range mods {
 		path := filepath.Join(modsDir, mod)
 		if !quiet {
@@ -158,6 +177,8 @@ func analyzeCollection(packDir, modsDir, label, confFile string, database *db.DB
 	if doWrite {
 		writeConf(packDir, confFile, packMin, packMax)
 	}
+
+	return packMin, packMax
 }
 
 func analyzeMod(path, displayName string, database *db.DB, listAll, verbose, quiet, doWrite bool) (*db.Version, *db.Version) {
@@ -205,23 +226,25 @@ func isModPack(dir string) bool {
 	return false
 }
 
-func listMods(dir string) []string {
+func listModsAndPacks(dir string) (mods, packs []string) {
 	entries, err := os.ReadDir(dir)
 	if err != nil {
-		return nil
+		return nil, nil
 	}
-	var mods []string
 	for _, e := range entries {
 		if !e.IsDir() {
 			continue
 		}
 		sub := filepath.Join(dir, e.Name())
-		if isModDir(sub) {
+		if isModPack(sub) {
+			packs = append(packs, e.Name())
+		} else if isModDir(sub) {
 			mods = append(mods, e.Name())
 		}
 	}
 	sort.Strings(mods)
-	return mods
+	sort.Strings(packs)
+	return
 }
 
 func isModDir(dir string) bool {
