@@ -1,15 +1,15 @@
 # Luanti Version Scanner
 
 This is a linux cli program designed with the goal of scanning through a Luanti
-mod/modpack/game, and finding the min and max versions need to run it. It is
-able to write the data to the .conf files of the scanned mod/modpack/game. It
-does have limits though, use your good judgement.
+mod/modpack/game, and finding the min and max versions need to run. It is
+able to write the data to the `.conf` files of the scanned mod/modpack/game. It
+isn't always completely accurate though, so check what it does.
 
 ## Features
 
 * Database 550+ known Luanti api's, almost every api can be accounted for.
 * Ability to determine if a api is guarded by a version check.
-* Write findings to .conf files.
+* Write findings to `.conf` files.
 * Scan entire modpacks and games at a time.
 * List every api found and checked.
 * Determine min version all the way back to v0.4.0.
