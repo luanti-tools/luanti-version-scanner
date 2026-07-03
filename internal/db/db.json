@@ -706,7 +706,7 @@
       "Version": "0.4.8"
     },
     "minetest.parse_relative_number": {
-      "Version": "5.7.0"
+      "Version": "5.6.0"
     },
     "minetest.path_exists": {
       "Version": "5.15.0"
